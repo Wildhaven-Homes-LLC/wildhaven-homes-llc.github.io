@@ -1,0 +1,32 @@
+{
+  "schema": "wildhaven-site-registry/1.0",
+  "spec": "rapp-static-api/1.1",
+  "pages": "https://wildhaven-homes-llc.github.io/",
+  "raw": "https://raw.githubusercontent.com/Wildhaven-Homes-LLC/wildhaven-homes-llc.github.io/main/",
+  "products": [
+    {
+      "name": "Wildhaven Hearth",
+      "pages": "https://wildhaven-homes-llc.github.io/hearth/",
+      "registry": "https://wildhaven-homes-llc.github.io/hearth/registry.json",
+      "status": "https://wildhaven-homes-llc.github.io/hearth/api/v1/status.json"
+    }
+  ],
+  "summary": {
+    "files": 2,
+    "products": 1
+  },
+  "entries": [
+    {
+      "name": "index.html",
+      "sha256": "d449945c7504e62340605f9a08635eeee462779104b79f5b22d7d204c6567a13",
+      "url": "https://wildhaven-homes-llc.github.io/index.html",
+      "raw": "https://raw.githubusercontent.com/Wildhaven-Homes-LLC/wildhaven-homes-llc.github.io/main/index.html"
+    },
+    {
+      "name": "llms.txt",
+      "sha256": "341b2582b554159a05fd82e8c180939873b4956ef4e75bcf388f9794a17114ba",
+      "url": "https://wildhaven-homes-llc.github.io/llms.txt",
+      "raw": "https://raw.githubusercontent.com/Wildhaven-Homes-LLC/wildhaven-homes-llc.github.io/main/llms.txt"
+    }
+  ]
+}

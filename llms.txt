@@ -1,0 +1,6 @@
+# Wildhaven Homes
+> Maker of Wildhaven Hearth: your own AI at home on your computer that looks after itself.
+
+Product: https://wildhaven-homes-llc.github.io/hearth/
+Product index (JSON): https://wildhaven-homes-llc.github.io/hearth/registry.json
+Index (JSON): https://wildhaven-homes-llc.github.io/registry.json
