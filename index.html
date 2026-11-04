@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wildhaven Homes — Hearth</title>
-<meta name="description" content="Wildhaven Hearth: your own AI at home on your computer, that looks after itself.">
-<style>
-  :root { --ink:#2b2118; --soft:#6b5a4a; --warm:#c8642c; --bg:#fbf6ef; }
-  body { margin:0; font:18px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--bg); }
-  main { max-width:720px; margin:0 auto; padding:96px 24px 56px; }
-  h1 { font-size:52px; line-height:1.05; margin:0 0 16px; letter-spacing:-0.02em; }
-  p.lede { font-size:22px; color:var(--soft); margin:0 0 40px; }
-  .cta { display:inline-block; background:var(--warm); color:#fff; text-decoration:none; font-weight:700; padding:16px 28px; border-radius:12px; font-size:18px; }
-  .cta:focus-visible { outline:3px solid var(--ink); outline-offset:3px; }
-  .alt { margin-top:18px; font-size:16px; color:var(--soft); }
-  a { color:var(--warm); }
-  footer { margin-top:80px; font-size:14px; color:var(--soft); }
-</style>
-</head>
-<body>
-<main>
-  <div style="font-size:44px" aria-hidden="true">🔥</div>
-  <h1>An AI that lives in your home, and looks after itself.</h1>
-  <p class="lede">Wildhaven Hearth runs on your own computer. It never drops the conversation, it takes care of its
-    computer, it keeps private things private, and you can add or remove anything without breaking it.</p>
-  <a class="cta" href="mailto:wildhavenhomesllc@gmail.com?subject=Hearth%20waitlist">Join the waitlist</a>
-  <p class="alt">Comfortable with Terminal? <a href="https://wildhaven-homes-llc.github.io/hearth/">Install Hearth now</a>, free.</p>
-  <footer>Wildhaven Homes LLC</footer>
-</main>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wildhaven Homes</title><meta name="description" content="Wildhaven Hearth: your own AI at home, that looks after itself.">
+<link rel="icon" href="img/mark.svg"><meta property="og:image" content="img/hero.jpg">
+<style>:root{--ink:#241a12;--soft:#6b5a4a;--warm:#c8642c;--cream:#fbf6ef;--line:#eadfd1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:18px/1.6 "Iowan Old Style","Palatino Linotype",Georgia,serif;color:var(--ink);background:var(--cream)}
+.sans,nav,.btn,.eyebrow,footer{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+nav{position:absolute;inset:0 0 auto;display:flex;align-items:center;justify-content:space-between;padding:22px 5vw;z-index:2;color:#fff}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:14px}
+.brand img{width:34px;height:34px;border-radius:8px;background:var(--cream)}
+nav a.link{color:#fff;text-decoration:none;font-size:15px;opacity:.9}
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;color:#fff;background:#1a120c url(img/hero.jpg) center/cover}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,12,6,.55) 0%,rgba(20,12,6,.1) 35%,rgba(20,12,6,.78) 100%)}
+.hero .in{position:relative;max-width:1100px;width:100%;margin:0 auto;padding:0 5vw 9vh}
+.eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;opacity:.85;margin:0 0 14px}
+h1{font-weight:400;font-size:clamp(40px,6vw,76px);line-height:1.04;letter-spacing:-.015em;margin:0 0 18px;max-width:14ch}
+.hero p.lede{font-size:clamp(18px,2vw,22px);max-width:34em;margin:0 0 30px;opacity:.92}
+.btn{display:inline-block;background:var(--warm);color:#fff;text-decoration:none;font-weight:600;padding:16px 30px;border-radius:999px;font-size:17px;border:0;cursor:pointer}
+.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.6);margin-left:10px}
+section{max-width:1100px;margin:0 auto;padding:110px 5vw}
+h2{font-weight:400;font-size:clamp(30px,3.6vw,44px);line-height:1.15;margin:0 0 18px;max-width:20ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:48px;margin-top:56px}
+.grid h3{font-weight:600;font-size:20px;margin:14px 0 6px}.grid p{margin:0;color:var(--soft)}
+.num{font-family:-apple-system,sans-serif;font-size:13px;color:var(--warm);letter-spacing:.14em}
+.band{background:#241a12;color:var(--cream)}.band section{padding:96px 5vw;text-align:center}
+.band h2{margin:0 auto 14px}.band p{color:#d9c9b6;max-width:32em;margin:0 auto 30px}
+.cmd{display:none;max-width:640px;margin:22px auto 0;text-align:left}
+.cmd.on{display:block}.cmd code{display:block;background:#140d08;color:#f3dcc4;padding:16px;border-radius:12px;font:14px/1.4 ui-monospace,Menlo,monospace;overflow-x:auto;white-space:nowrap}
+.cmd small{display:block;margin-top:10px;color:#bfae99;font-family:-apple-system,sans-serif;font-size:14px}
+.cmd a{color:#f0a978}
+footer{border-top:1px solid var(--line);max-width:1100px;margin:0 auto;padding:30px 5vw 50px;display:flex;justify-content:space-between;color:var(--soft);font-size:14px}
+footer a{color:var(--soft)}
+</style></head><body>
+<nav><a class="brand" href="https://wildhaven-homes-llc.github.io/"><img src="img/mark.svg" alt="">Wildhaven</a>
+<a class="link" href="https://wildhaven-homes-llc.github.io/hearth/">Hearth</a></nav>
+<header class="hero"><div class="in"><p class="eyebrow">Wildhaven Homes · Introducing Hearth</p><h1>An AI that lives in your home.</h1><p class="lede">Hearth is a personal AI that runs on your own computer, takes care of itself, and keeps your life private.</p><a class="btn" href="mailto:wildhavenhomesllc@gmail.com?subject=Hearth%20waitlist">Join the waitlist</a><a class="btn ghost" href="hearth/">Meet Hearth</a></div></header>
+<section><h2>A quiet, capable presence in your home.</h2>
+<div class="grid">
+<div><span class="num">01</span><h3>It never drops the conversation</h3><p>Adding, removing or updating anything happens while it keeps answering you.</p></div>
+<div><span class="num">02</span><h3>It looks after itself</h3><p>It watches over its computer, keeps itself current, and knows who it belongs to.</p></div>
+<div><span class="num">03</span><h3>Your life stays at home</h3><p>It lives on your computer, not in someone else's cloud. Private things stay private.</p></div>
+</div></section><div class="band"><section><h2>Be one of the first homes.</h2><p>We are inviting a small number of households first. Leave your email and we'll be in touch.</p>
+<a class="btn" href="mailto:wildhavenhomesllc@gmail.com?subject=Hearth%20waitlist">Join the waitlist</a></section></div>
+<footer><span>© 2026 Wildhaven Homes LLC</span><a href="mailto:wildhavenhomesllc@gmail.com">Contact</a></footer>
+</body></html>
