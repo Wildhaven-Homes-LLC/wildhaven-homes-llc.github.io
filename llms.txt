@@ -4,3 +4,5 @@
 Product: https://wildhaven-homes-llc.github.io/hearth/
 Product index (JSON): https://wildhaven-homes-llc.github.io/hearth/registry.json
 Index (JSON): https://wildhaven-homes-llc.github.io/registry.json
+Guide for AIs (install Hearth for your person): https://wildhaven-homes-llc.github.io/hearth/skill.md
+API front door: https://wildhaven-homes-llc.github.io/api/v1/index.json
